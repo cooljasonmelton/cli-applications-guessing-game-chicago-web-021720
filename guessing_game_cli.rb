@@ -14,7 +14,8 @@ end
 
 def compare_input
   comp = rand_number
-  if get_user_input == "exit"
+  input = get_user_input
+  if input == "exit"
     puts "Goodbye!"
   elsif get_user_input == comp
     puts "You guessed the correct number!"
