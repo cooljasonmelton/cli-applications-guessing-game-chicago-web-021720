@@ -15,6 +15,7 @@ end
 def compare_input
   comp = rand_number
   input = get_user_input
+  binding.pry
   if input == "exit"
     puts "Goodbye!"
   elsif input == comp
