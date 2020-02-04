@@ -19,7 +19,7 @@ def compare_input
   puts comp
   if input == "exit"
     puts "Goodbye!"
-  elsif input == comp
+  elsif input.to_i == compx
     puts "You guessed the correct number!"
   else 
     puts "Sorry! The computer guessed #{comp}."
