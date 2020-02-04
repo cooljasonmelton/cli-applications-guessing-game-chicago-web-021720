@@ -26,7 +26,6 @@ end
 
 def run_guessing_game 
   prompt_user
-  get_user_input
   compare_input
 
 end 
