@@ -20,7 +20,7 @@ def compare_input
   elsif input == comp
     puts "You guessed the correct number!"
   else 
-    "Sorry! The computer guessed #{comp}."
+    puts "Sorry! The computer guessed #{comp}."
   end 
 end
 
